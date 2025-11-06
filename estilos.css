@@ -2,6 +2,19 @@
     font-size: 13px
 }
 
-.divs-facilidades{
-    width: 325px
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
 }
