@@ -1,7 +1,8 @@
+
+
 .texto-menor {
     font-size: 13px
 }
-
 
 .divs-facilidades {
     width: 325px;
@@ -17,4 +18,36 @@
         width: 696px;
     }
 
+}
+
+.bg-color-black {
+    background-color: black
+}
+
+.lt-color-green {
+    color: #daff01;
+    font-weight: bold;
+}
+
+.icon-color-green {
+    color: #daff01;
+}
+
+.bg-color-purple {
+    background-color: #9353ff;
+}
+
+.texto-facilidades{
+    color:silver; 
+    width: 120px;
+}
+
+.posicao{
+    top: 40%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
 }
